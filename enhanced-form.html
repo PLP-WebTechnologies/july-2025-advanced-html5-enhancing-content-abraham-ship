@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Enhancing HTML5 Content & Mastering Forms </title>
+        <meta name="description" content="Enhancing HTML5 Content & Mastering Forms">
+        <meta name="keywords" content="HTML5, Forms, Lists, Tables, Media">
+    </head>
+    <body>
+
+        <header>
+            <h1>Hello and welcome to this Multi-sectional Web Page</h1>
+            <p>This time we are looking at Lists, Tables, Media and a form</p>
+        </header>
+
+        <section id="lists">
+            <h2>We are starting off with a list of Kenyan presidents</h2>
+            <ol type="1">
+                <li>Jomo Kenyatta</li>
+                <li>Daniel Moi</li>
+                <li>Mwai Kibaki</li>
+                <li>Uhuru Kenyatta</li>
+                <li>William Ruto</li>
+            </ol>
+            <h2>My favourite activities include:</h2>
+            <ul>
+                <li>Fishing</li>
+                <li>Cycling</li>
+                <li>Drawing</li>
+                <li>Coding</li>
+            </ul>
+        </section>
+
+        <section class="table">
+            <h2>This is my current PLP timetable</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Session</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Web Development</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Database Design & Programming with SQL</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Startup Building</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="media">
+            <h2>Media</h2>
+            
+            <video width="320" height="240" controls>
+                <source src="https://videos.pexels.com/video-files/3116737/3116737-hd_1920_1080_25fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>A short, fun video</p>
+            
+            <img src="https://images.pexels.com/photos/1108701/pexels-photo-1108701.jpeg" alt="pagoda temple with Mount Fuji in the background" width="600" height="450">
+            <p>My favourite landmark</p>
+        </section>
+
+        <section class="form">
+            <h2>Contact form</h2>
+            <form action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Contact Information:</legend>
+                    <label for="fname">Full name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="John Doe" required minlength="3"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required ><br><br>
+                    <label for="msg">Message:</label>
+                    <textarea name="msg" id="msg" placeholder="Enter your message here ..." required></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Consent</legend>
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree to be contacted back regarding my message.</label><br><br>
+                </fieldset>
+                <button type="submit">Submit!</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 abraham ship</p>
+        </footer>
+    </body>
+</html>
